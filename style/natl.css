@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Archivo";
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+:root {
+  --mainCOlor: #cd3c32;
+  --dark10: #121214;
+  --dark20: #ffffff;
+}
