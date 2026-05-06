@@ -145,8 +145,6 @@ Toda ajuda é bem-vinda! Se você quer melhorar o projeto, siga estes passos:
 
 Este projeto está sob a licença **MIT** — sinta-se livre para usar, modificar e distribuir, desde que mantenha os créditos.
 
-Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
-
 ---
 
 <div align="center">
