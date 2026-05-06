@@ -90,7 +90,7 @@ const dataFinal = new Date("Dec 25, 2026 00:00:00").getTime();
 ```
 feliz-natal/
 │
-├── natal.html          # Página principal — toda a estrutura da interface
+├── index.html          # Página principal — toda a estrutura da interface
 ├── natal.js            # Lógica do contador regressivo em tempo real
 │
 ├── style/
