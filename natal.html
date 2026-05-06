@@ -10,37 +10,50 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <script src="./natal.js"></script>
 </head>
 
 <body>
   <main>
 
-    <head>
-      <div class="content">
+    <header>
+      <div class="content-header">
         <div class="header-Infor">
-          <img src="./sr/logo.png" alt="">
-          <p>Uma <span id="red-text">plataforma de doação</span>
-            para espalhar alegria</p>
-          <p>
-            Nessas festas de fim de ano mande um presente
-            para a pessoa amada e compartilhe a alegria do Natal.
-          </p>
-          <button class="btn-Red">Fazer uma doação</button>
+          <div>
+            <img src="./sr/logo.png" alt="">
+          </div>
+          <div class="text-header">
+            <p>Uma <span id="red-text">plataforma de doação</span> <br>
+              para espalhar alegria</p>
+            <p>
+              Nessas festas de fim de ano mande um presente <br>
+              para a pessoa amada e compartilhe a alegria do Natal.
+            </p>
+          </div>
+          <div>
+            <button class="btn-red">Fazer uma doação</button>
+          </div>
+
         </div>
         <div class="header-img">
           <img src="./sr/imagem.png" alt="">
         </div>
       </div>
-    </head>
+    </header>
 
     <section>
       <div class="section-1">
         <h2>Tempo limitado </h2>
-        <p>Nessas festas de fim de ano mande um presente para a pessoa amada e compartilhe a alegria do Natal.</p>
+        <p>Nessas festas de fim de ano mande um presente para <br> a pessoa amada e compartilhe a alegria do Natal.</p>
         <div class="relogio">
-          10d -24h - 01m - 52s
+          <span id="dias">10D-</span>
+          <span id="horas">24H-</span>
+          <span id="minutos">01M-</span>
+          <span id="segundos">52s</span>
         </div>
-        <img src="./sr/present.png" alt="">
+        <div>
+          <img src="./sr/present.png" alt="">
+        </div>
       </div>
     </section>
 
@@ -50,17 +63,18 @@
           <img src="./sr/illustration (1).png" alt="">
         </div>
 
-        <div class="section2-infor">
-          <p>Conectando generosidade
-            ao redor do mundos</p>
+        <div class="section2-text">
+          <h3>Conectando generosidade <br> ao redor do mundos</h3>
 
-          <p>
-            Celebre a magia do Natal de uma maneira especial! Descubra a plataforma que permite a doação de presentes
-            significativos para aqueles que mais precisam. Faça parte do movimento e compartilhe o verdadeiro espírito
-            da generosidade.
+          <p id="section-text">
+            Celebre a magia do Natal de uma maneira especial! <br>Descubra a plataforma que permite a doação de <br>
+            presentes
+            significativos para aqueles que mais <br> precisam. Faça parte do movimento e compartilhe o <br> verdadeiro
+            espírito da generosidade.
           </p>
-
-          <button class="btn-Red">Fazer uma doação</button>
+          <div>
+            <button class="btn-red">Fazer uma doação</button>
+          </div>
         </div>
       </div>
     </section>
@@ -70,7 +84,6 @@
         <div class="footer-img">
           <img src="./sr/logo.png" alt="">
         </div>
-
         <ul>
           <li>
             <img src="./sr/logo-twitter.png" alt="">
@@ -91,6 +104,7 @@
       </div>
     </footer>
   </main>
+  <script src="./natal.js"></script>
 </body>
 
 </html>

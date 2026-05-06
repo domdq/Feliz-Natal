@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Archivo";
   text-decoration: none;
+  list-style: none;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
@@ -17,4 +18,143 @@ body {
   --dark20: #ffffff;
   --dark30: #ffe9e8;
   --dark40: #ffd5d3;
+}
+
+/* ********************  header  *****************8 */
+
+header {
+  background: var(--dark40);
+}
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 100px;
+}
+
+.header-Infor {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.text-header :first-child {
+  font-family: "Archivo";
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--dark10);
+}
+#red-text {
+  color: var(--mainCOlor);
+}
+
+.text-header :nth-child(2) {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--dark10);
+  margin-top: 24px;
+}
+
+.btn-red {
+  background: var(--mainCOlor);
+  color: var(--dark20);
+  font-family: "Archivo";
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition:
+    transform 0.1s ease,
+    background-color 0.2s ease;
+}
+
+.btn-red:hover {
+  background: #e15b52;
+}
+
+.btn-red:active {
+  transform: scale(0.95);
+  background: #ad3128;
+}
+
+/* *****************  section 01  ****************** */
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--dark10);
+  font-family: "Archivo";
+}
+
+.section-1 > p {
+  font-family: "Archivo";
+  font-size: 1.25rem;
+  color: var(--dark10);
+}
+
+.relogio span {
+  color: var(--mainCOlor);
+  font-family: "Archivo";
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/* *****************  section 02  ****************** */
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.section2-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+h3 {
+  font-family: "Archivo";
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: var(--dark10);
+}
+
+#section-text {
+  font-family: "Archivo";
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--dark10);
+  line-height: 150%;
+}
+
+/* ************************  footer  ***************** */
+footer {
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 7px;
+  background: var(--dark40);
+  margin-top: 100px;
+}
+
+ul {
+  display: flex;
+  gap: 35px;
 }
